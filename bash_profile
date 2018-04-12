@@ -1,0 +1,12 @@
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+alias ls='ls -GFh'
+alias p='ssh -i /Users/richardasp/.ssh/pacha/id_rsa.old.1467297025 richard.asp@pacha.cpanel.net'
+alias m='ssh -i /Users/richardasp/.ssh/pacha/id_rsa.old.1467297025 richard.asp@macha.cpanel.net'
+# alias mys15='ssh -p 21395 -i /Users/richardasp/.ssh/RCAHosting/id_rsa rasp@208.74.120.15'
+alias mys17='ssh -p 21395 -i /Users/richardasp/.ssh/RCAHosting/id_rsa rasp@208.74.120.17'
+alias mys16='ssh -p 21395 -i /Users/richardasp/.ssh/RCAHosting/id_rsa rasp@208.74.120.16'
+alias mys82='ssh -p 21395 -i /Users/richardasp/.ssh/RCAHosting/id_rsa rasp@208.74.120.82'
+alias rcadrive='diskutil coreStorage unlockVolume D35A8B48-DAEA-4109-8C8B-576744830FD6'
